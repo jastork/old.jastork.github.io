@@ -1,33 +1,148 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Academic Theme</title>
+    <title>Publications on Homepage</title>
     <link>https://jastork.github.io/publication/</link>
-    <description>Recent content in Publications on Academic Theme</description>
+    <description>Recent content in Publications on Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Johannes A. Stork</copyright>
-    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jastork.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://jastork.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Hierarchical Fingertip Space: A Unified Framework for Grasp Planning and In-Hand Grasp Adaptation</title>
+      <link>https://jastork.github.io/publication/hang2016hierarchical/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jastork.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://jastork.github.io/publication/hang2016hierarchical/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://jastork.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Probabilistic consolidation of grasp experience</title>
+      <link>https://jastork.github.io/publication/stork2015learning-A/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jastork.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://jastork.github.io/publication/stork2015learning-A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Predictive State Representations for Planning</title>
+      <link>https://jastork.github.io/publication/stork2015learning-B/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2015learning-B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantically Interpretable Predictive State Representation</title>
+      <link>https://jastork.github.io/publication/stork2015semantically/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2015semantically/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cooperative Grasping Through Topological Object Representation</title>
+      <link>https://jastork.github.io/publication/marzinotto2014cooperative/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/marzinotto2014cooperative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space for Multi-fingered Precision Grasping</title>
+      <link>https://jastork.github.io/publication/hang2014hierarchical-B/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/hang2014hierarchical-B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combinatorial Optimization for Hierarchical Contact-level Grasping</title>
+      <link>https://jastork.github.io/publication/hang2013combinatorial/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/hang2013combinatorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space for Synthesizing Adaptable Fingertip Grasps</title>
+      <link>https://jastork.github.io/publication/hang2014hierarchical-A/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/hang2014hierarchical-A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrated Motion and Clasp Planning with Virtual Linking</title>
+      <link>https://jastork.github.io/publication/stork2013integrated/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2013integrated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Topology-based Object Representation for Clasping, Latching and Hooking</title>
+      <link>https://jastork.github.io/publication/stork2013topology/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2013topology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grasping Objects with Holes: A Topological Approach</title>
+      <link>https://jastork.github.io/publication/pokorny2013grasping/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/pokorny2013grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Postural Synergies for Caging Grasps</title>
+      <link>https://jastork.github.io/publication/stork2013towards/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2013towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio-Based Human Activity Recognition Using Non-Markovian Ensemble Voting</title>
+      <link>https://jastork.github.io/publication/stork2012audio/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2012audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio-Based Human Activity Recognition with Robots</title>
+      <link>https://jastork.github.io/publication/stork2011audio/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2011audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People Tracking with Human Motion Predictions from Social Forces</title>
+      <link>https://jastork.github.io/publication/luber2010people/</link>
+      <pubDate>Sat, 01 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/luber2010people/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic Theme</title>
+    <title>Homes on Homepage</title>
     <link>https://jastork.github.io/home/</link>
-    <description>Recent content in Homes on Academic Theme</description>
+    <description>Recent content in Homes on Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Johannes A. Stork</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jul 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jastork.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about</title>
       <link>https://jastork.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jastork.github.io/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;biography:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Biography&lt;/h1&gt;
 
-&lt;p&gt;Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+&lt;p&gt;I am a post-doctoral researcher at the &lt;a href=&#34;https://www.kth.se/en/csc/forskning/cvap&#34;&gt;Robotics, Perception, and Learning Lab&lt;/a&gt; and the &lt;a href=&#34;https://www.kth.se/en/csc/2.3721/cas&#34;&gt;Center for Autonomous Systems&lt;/a&gt;. My research interests include
+autonomous intelligent systems,
+planning and learning for dynamical systems,
+robotic grasping and manipulation,
+and
+robotic perception.
+Currently, I am working with the research group headed by &lt;a href=&#34;http://www.csc.kth.se/~danik/&#34;&gt;Danica Kragic&lt;/a&gt; that focuses on autonomous robotic grasping and manipulation problems.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. Etiam iaculis libero hendrerit ipsum tempus accumsan. Praesent ex justo, aliquam bibendum nulla in, vehicula rhoncus massa. Fusce gravida mattis tellus vel commodo. Etiam molestie non ligula ac venenatis. Integer semper diam at fringilla dapibus. Nunc tincidunt lacinia nisi, sed blandit purus fermentum vel. Morbi tempus dolor dolor. Phasellus scelerisque est elit, et porttitor mauris faucibus sit amet. Phasellus sollicitudin bibendum sem eu blandit. Curabitur congue felis eu velit faucibus porta. Curabitur a pharetra diam.&lt;/p&gt;
+&lt;p&gt;Previously, I worked with the &lt;a href=&#34;http://srl.informatik.uni-freiburg.de&#34;&gt;social robotics research group&lt;/a&gt; of &lt;a href=&#34;http://www2.informatik.uni-freiburg.de/~arras/&#34;&gt;Kai Arras&lt;/a&gt; at Freiburg University, Germany, researching range-based people tracking, audio-based perception, and learning for motion planning in human-populated environments. After that, as a PhD. student of &lt;a href=&#34;http://www.csc.kth.se/~danik&#34;&gt;Danica Kragic&lt;/a&gt; at KTH, I researched topology-based caging with &lt;a href=&#34;http://www.csc.kth.se/~danik&#34;&gt;Danica Kragic&lt;/a&gt;, grasp synthesis with &lt;a href=&#34;http://www.csc.kth.se/~kaiyuh/&#34;&gt;Kaiyu Hang&lt;/a&gt;, and predictive state representations for robotics with &lt;a href=&#34;http://www.carlhenrik.com&#34;&gt;Carl Henrik Ek&lt;/a&gt; and &lt;a href=&#34;http://www.nada.kth.se/~yaseminb/&#34;&gt;Yasemin Bekiroglu&lt;/a&gt;. My mentors were &lt;a href=&#34;http://www2.informatik.uni-freiburg.de/~tipaldi/&#34;&gt;Diego Tipaldi&lt;/a&gt; and &lt;a href=&#34;http://www2.informatik.uni-freiburg.de/~spinello/&#34;&gt;Luciano Spinello&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -32,16 +38,13 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jastork.github.io/home/teaching/</guid>
-      <description>&lt;p&gt;I am a teaching instructor for the following courses at University X:&lt;/p&gt;
+      <description>&lt;p&gt;I was a teaching assistant and lecturer for the following courses at KTH:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;CS101: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS102: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS103: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS104: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS105: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS106: An intro to computer science&lt;/li&gt;
-&lt;li&gt;CS107: An intro to computer science&lt;/li&gt;
+&lt;li&gt;DD2380: Artificial Intelligence (2015)&lt;/li&gt;
+&lt;li&gt;DD2380: Artificial Intelligence (2014)&lt;/li&gt;
+&lt;li&gt;DD2380: Artificial Intelligence (2013)&lt;/li&gt;
+&lt;li&gt;DD2380: Artificial Intelligence (2012)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

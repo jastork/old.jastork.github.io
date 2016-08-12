@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Academic Theme</title>
+    <title>Projects on Homepage</title>
     <link>https://jastork.github.io/project/</link>
-    <description>Recent content in Projects on Academic Theme</description>
+    <description>Recent content in Projects on Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Johannes A. Stork</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jul 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jastork.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://jastork.github.io/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Learning Representations of State</title>
+      <link>https://jastork.github.io/project/psr/</link>
+      <pubDate>Tue, 19 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jastork.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <guid>https://jastork.github.io/project/psr/</guid>
+      <description>&lt;p&gt;When we want to interact with the world, we need to imagine the consequences of our actions. Only then can we make an informed decision and choose the actions that effect what we finally want to achieve—we call it planning. For this, we require a model of the world that describes the world’s evolution considering our actions. Every successful autonomous agent requires this faculty to exhibit purposeful and deliberate behavior for a wide range of tasks. The traditional way to obtain a model for planning is for the designer to use insight into the task and to manually devise a representation by specifying task variables explicitly. This is often done in terms of latent tree graphical models and has been applied abundantly in robotics. However, the process of specifying models for dynamical systems is often hard, expensive, and biased by the designer and therefore it has been suggested to instead learn a state representation from experience.&lt;/p&gt;
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Predictive state representations (PSRs) are a different approach to modeling high-dimensional dynamical systems. Unlike POMDPs, PSRs do not require a predetermined state representation. Instead, they represent state as a finite-dimensional statistic about observable future events and therefore also do not rely on hidden, unobservable latent states. As a class of models, PSRs are more expressive than POMDPs and subsume them as a special case. Instead of considering the complexity of the environment, like POMSPs, PSRs consider how the environment responds to the agent’s actions. Therefore, PSR states are similar when the same actions lead to similar outcomes, which is expedient for planning.&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;On paper, spectral learning of PSR seems to have great potential for application in robotics and comes with many appealing properties. It provides a computationally efficient procedure to learn compact representations of state for continuous domains that model uncertainty and requires only a minimal amount of prior information. This capability is relevant since it enables autonomous learning robotic agents to extend their range of operation and adapt to changing or new tasks and environments. However, this algorithm has so far only been demonstrated for a single synthetic domain under idealized conditions and, until now, no learned PSR has been used to control a real-world robot. The learning-planning loop has only been closed virtually. The resulting state representation does not allow for ad hoc interpretation and is consequently difficult to verify. Furthermore, the demonstrated learning process and experiments involve a series of algorithm-independent design decisions such as the definition of features for sequential data which are only based on perceptions, the number of state dimensions, the length of training traces, and approximation parameters. At the same time, it is not clear how these choices influence the learned model, how bias in the training set influences the model’s quality, or how we can incorporate prior knowledge into the learning process.&lt;/p&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;p&gt;We therefore set out to study spectral learning of PSRs for robotic applications more closely. For this purpose, we consider two scenarios, in-hand manipulation and mobile robot navigation. In the in-hand manipulation scenario, we study the influence of feature design on the representation’s ability to disambiguate perceptually similar states. For this, we are interested in defining pertinent and structured features for spectral PSR learning, as well as interpreting PSR states with respect to the uncertainty they represent such that we can avoid these states in planning. In the mobile navigation scenario, we study the relationship between perceptions, features, and the suitability of the learned representation for solving the task. For this, we are interested to include prior information about the environment, dynamical system, and the task in order to improve planning performance and interpretability such that we can evaluate the learning success directly, even when the perceptions in the environment are interchanged.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://jastork.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Precision Grasp Sythesis</title>
+      <link>https://jastork.github.io/project/grasping/</link>
+      <pubDate>Tue, 19 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jastork.github.io/project/example-external-project/</guid>
-      <description></description>
+      <guid>https://jastork.github.io/project/grasping/</guid>
+      <description>&lt;p&gt;Prehensile action is one of our most empowering modes of interaction with our environment. It allows us to manipulate, pick up, and carry objects. Furthermore, it is an essential component of tool use which has originally been regarded as a form of intelligence only possessed by humans since it requires a sophisticated level of cognition. Grasping is a form of prehensile action that consists in fixating or restraining objects with our fingers and other parts of our hand and is an essential part of our lives. If we want to use robots as personal service assistants, autonomous handling of objects in the form of grasping therefore is an important and mandatory capability. Already in assuming simple tasks, such systems need to safely grasp objects, transport them where they need to be taken, and safely put them down. Most other interactions, static or dynamic in nature, also require that objects are firmly held as in a grasp.&lt;/p&gt;
+
+&lt;p&gt;For robotic grasping, we need to consider the target object’s surface and we need to regard the robot’s kinematic abilities which are governed by different natural parameters. To optimize grasps, we need structure that relates different grasps to each other, but the space of grasp candidates depends on the object’s shape and the robot’s properties. For this reason, we study representation in the context of fingertip grasp synthesis.&lt;/p&gt;
+
+&lt;p&gt;We study how computationally tractable global optimization of precision grasps can be achieved despite the complex structure of the search space and the challenging optimization objective involving grasp quality. For this, we make the simplifying assumption that contacts at the end effector are limited to a single fixed location for each fingertip. This means that the object’s surface always needs to support the same fingertip geometry at a potential contact location on its surface to allow the placement of the end effector’s fingertip—we call this geometric profile a &lt;em&gt;fingertip unit&lt;/em&gt;. Consequently, we represent the object’s affordance for contacts in terms of the locations where the end effector’s fingertip unit can be supported by the object surface geometry—we refer to these locations as the object’s fingertip space. To represent the end effector’s abilities, we develop an embedding space that represents relative arrangements of fingertip locations that are reachable by the end effector. The embedding space elements are associated with their postures. We relate the end effector’s abilities and the object’s affordance in the embedding space but search in the object’s fingertip space. For this, we formulate an optimization objective that describes if a collection of fingertip units can be realized by the end effector.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Topology-based Caging</title>
+      <link>https://jastork.github.io/project/caging/</link>
+      <pubDate>Tue, 19 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/project/caging/</guid>
+      <description>&lt;p&gt;In this project, we consider a problem called caging for which concerns both, geometric shapes and non-constructive geometric definitions of desired robot-object configurations. Caging is a challenging problem since we need to exploit geometric properties of shapes and reason about their spatial relationship with the goal of providing flexible control over objects. For the reasons named above, a geometric representation is not suitable for caging. Therefore, translating the problem to a different representation is required to enable a constructive and computationally tractable process for caging. For this reason we study topological representation in the context of caging.&lt;/p&gt;
+
+&lt;p&gt;For many object interaction tasks, objects do not need to be completely immobilized in the hand. Instead, caging is often sufficient or—because of its flexibility—a more attractive choice, e.g. for nonprehensile manipulation. Since caging only bounds an object’s mobility to prevent it from escaping to infinity the object can move in a limited subspace of poses and use this freedom to comply to the end effector’s motion. In this way, caging provides a flexible way to control an object without immobilizing it completely. Since caging is a purely geometric approach—operating without precise knowledge of physical properties like mass, material or detailed surface structure—it is argued that caging offers larger tolerance towards perception and executions uncertainty than point contact-based grasping.&lt;/p&gt;
+
+&lt;p&gt;Instead of addressing the general caging problem for arbitrarily shaped bodies, we proposed to focus on &lt;em&gt;objects with holes&lt;/em&gt; such that we can describe a subset of caging configurations as &lt;em&gt;linking object and end effector like links of a chain&lt;/em&gt;. For &lt;em&gt;chain-based caging&lt;/em&gt;, we need to find a hole through the object, pass one end of the end effector through that hole, and meet another end of the end effector on the other side of the hole to mechanically interlock object and end effector. We presented topological concepts that allow us to formally describe and extract representations of holes through objects and describe the spatial arrangement of curves and points. We also presented a formal description of caging and join the caging conditions with topological concepts from to give two topology-based definitions of chain-based caging.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

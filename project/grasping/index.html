@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="author" content="Johannes A. Stork">
+    <meta name="description" content="Post-Doctoral Researcher">
+
+    <link rel="stylesheet" href="https://jastork.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://jastork.github.io/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://jastork.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://jastork.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="https://jastork.github.io/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="https://jastork.github.io/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://jastork.github.io/project/grasping/">
+
+    <title>Precision Grasp Sythesis | Homepage</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://jastork.github.io/">Homepage</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#teaching">Teaching</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+        
+        <img src="https://jastork.github.io/img//projects/grasping.png" class="article-banner" itemprop="image">
+        
+
+        <h1 itemprop="name">Precision Grasp Sythesis</h1>
+
+        
+
+        <div class="article-style" itemprop="articleBody">
+            <p>Prehensile action is one of our most empowering modes of interaction with our environment. It allows us to manipulate, pick up, and carry objects. Furthermore, it is an essential component of tool use which has originally been regarded as a form of intelligence only possessed by humans since it requires a sophisticated level of cognition. Grasping is a form of prehensile action that consists in fixating or restraining objects with our fingers and other parts of our hand and is an essential part of our lives. If we want to use robots as personal service assistants, autonomous handling of objects in the form of grasping therefore is an important and mandatory capability. Already in assuming simple tasks, such systems need to safely grasp objects, transport them where they need to be taken, and safely put them down. Most other interactions, static or dynamic in nature, also require that objects are firmly held as in a grasp.</p>
+
+<p>For robotic grasping, we need to consider the target object’s surface and we need to regard the robot’s kinematic abilities which are governed by different natural parameters. To optimize grasps, we need structure that relates different grasps to each other, but the space of grasp candidates depends on the object’s shape and the robot’s properties. For this reason, we study representation in the context of fingertip grasp synthesis.</p>
+
+<p>We study how computationally tractable global optimization of precision grasps can be achieved despite the complex structure of the search space and the challenging optimization objective involving grasp quality. For this, we make the simplifying assumption that contacts at the end effector are limited to a single fixed location for each fingertip. This means that the object’s surface always needs to support the same fingertip geometry at a potential contact location on its surface to allow the placement of the end effector’s fingertip—we call this geometric profile a <em>fingertip unit</em>. Consequently, we represent the object’s affordance for contacts in terms of the locations where the end effector’s fingertip unit can be supported by the object surface geometry—we refer to these locations as the object’s fingertip space. To represent the end effector’s abilities, we develop an embedding space that represents relative arrangements of fingertip locations that are reachable by the end effector. The embedding space elements are associated with their postures. We relate the end effector’s abilities and the object’s affordance in the embedding space but search in the object’s fingertip space. For this, we formulate an optimization objective that describes if a collection of fingertip units can be realized by the end effector.</p>
+
+        </div>
+    </article>
+
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous"><a href="https://jastork.github.io/project/caging/"><span aria-hidden="true">&larr;</span> Topology-based Caging</a></li>
+        
+
+        
+        <li class="next"><a href="https://jastork.github.io/project/psr/">Learning Representations of State <span aria-hidden="true">&rarr;</span></a></li>
+        
+    </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Johannes A. Stork &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://jastork.github.io/js/jquery-1.12.3.min.js"></script>
+        <script src="https://jastork.github.io/js/bootstrap.min.js"></script>
+        <script src="https://jastork.github.io/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        </script>
+        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        
+
+    </body>
+</html>
+

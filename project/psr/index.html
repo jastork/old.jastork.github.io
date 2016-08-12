@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="author" content="Johannes A. Stork">
+    <meta name="description" content="Post-Doctoral Researcher">
+
+    <link rel="stylesheet" href="https://jastork.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://jastork.github.io/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://jastork.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://jastork.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="https://jastork.github.io/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="https://jastork.github.io/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://jastork.github.io/project/psr/">
+
+    <title>Learning Representations of State | Homepage</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://jastork.github.io/">Homepage</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#teaching">Teaching</a></li>
+                
+                <li class="nav-item"><a href="https://jastork.github.io/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+        
+        <img src="https://jastork.github.io/img//projects/psr.png" class="article-banner" itemprop="image">
+        
+
+        <h1 itemprop="name">Learning Representations of State</h1>
+
+        
+
+        <div class="article-style" itemprop="articleBody">
+            <p>When we want to interact with the world, we need to imagine the consequences of our actions. Only then can we make an informed decision and choose the actions that effect what we finally want to achieve—we call it planning. For this, we require a model of the world that describes the world’s evolution considering our actions. Every successful autonomous agent requires this faculty to exhibit purposeful and deliberate behavior for a wide range of tasks. The traditional way to obtain a model for planning is for the designer to use insight into the task and to manually devise a representation by specifying task variables explicitly. This is often done in terms of latent tree graphical models and has been applied abundantly in robotics. However, the process of specifying models for dynamical systems is often hard, expensive, and biased by the designer and therefore it has been suggested to instead learn a state representation from experience.</p>
+
+<p>Predictive state representations (PSRs) are a different approach to modeling high-dimensional dynamical systems. Unlike POMDPs, PSRs do not require a predetermined state representation. Instead, they represent state as a finite-dimensional statistic about observable future events and therefore also do not rely on hidden, unobservable latent states. As a class of models, PSRs are more expressive than POMDPs and subsume them as a special case. Instead of considering the complexity of the environment, like POMSPs, PSRs consider how the environment responds to the agent’s actions. Therefore, PSR states are similar when the same actions lead to similar outcomes, which is expedient for planning.</p>
+
+<p>On paper, spectral learning of PSR seems to have great potential for application in robotics and comes with many appealing properties. It provides a computationally efficient procedure to learn compact representations of state for continuous domains that model uncertainty and requires only a minimal amount of prior information. This capability is relevant since it enables autonomous learning robotic agents to extend their range of operation and adapt to changing or new tasks and environments. However, this algorithm has so far only been demonstrated for a single synthetic domain under idealized conditions and, until now, no learned PSR has been used to control a real-world robot. The learning-planning loop has only been closed virtually. The resulting state representation does not allow for ad hoc interpretation and is consequently difficult to verify. Furthermore, the demonstrated learning process and experiments involve a series of algorithm-independent design decisions such as the definition of features for sequential data which are only based on perceptions, the number of state dimensions, the length of training traces, and approximation parameters. At the same time, it is not clear how these choices influence the learned model, how bias in the training set influences the model’s quality, or how we can incorporate prior knowledge into the learning process.</p>
+
+<p>We therefore set out to study spectral learning of PSRs for robotic applications more closely. For this purpose, we consider two scenarios, in-hand manipulation and mobile robot navigation. In the in-hand manipulation scenario, we study the influence of feature design on the representation’s ability to disambiguate perceptually similar states. For this, we are interested in defining pertinent and structured features for spectral PSR learning, as well as interpreting PSR states with respect to the uncertainty they represent such that we can avoid these states in planning. In the mobile navigation scenario, we study the relationship between perceptions, features, and the suitability of the learned representation for solving the task. For this, we are interested to include prior information about the environment, dynamical system, and the task in order to improve planning performance and interpretability such that we can evaluate the learning success directly, even when the perceptions in the environment are interchanged.</p>
+
+        </div>
+    </article>
+
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous"><a href="https://jastork.github.io/project/grasping/"><span aria-hidden="true">&larr;</span> Precision Grasp Sythesis</a></li>
+        
+
+        
+    </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Johannes A. Stork &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://jastork.github.io/js/jquery-1.12.3.min.js"></script>
+        <script src="https://jastork.github.io/js/bootstrap.min.js"></script>
+        <script src="https://jastork.github.io/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        </script>
+        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        
+
+    </body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icra16 on Homepage</title>
+    <link>https://jastork.github.io/tags/icra16/</link>
+    <description>Recent content in Icra16 on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Johannes A. Stork</copyright>
+    <lastBuildDate>Mon, 30 May 2016 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jastork.github.io/tags/icra16/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IEEE International Conference on Robotics and Automation 2016</title>
+      <link>https://jastork.github.io/post/ICRA2016/</link>
+      <pubDate>Mon, 30 May 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/post/ICRA2016/</guid>
+      <description>&lt;p&gt;The KTH hosted the &lt;a href=&#34;http://www.icra2016.org&#34;&gt;IEEE International Conference on Robotics and Automation 2016&lt;/a&gt; in Stockholm this year. We organized and ran a fabulous conference under gernal chair &lt;a href=&#34;http://www.csc.kth.se/~danik/&#34;&gt;Danica Kragic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pictures from the conference are avaialbe for download &lt;a href=&#34;http://www.icra2016.org/conference/pictures/&#34;&gt;at the conference website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
