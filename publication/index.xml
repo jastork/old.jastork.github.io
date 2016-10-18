@@ -20,15 +20,6 @@
     </item>
     
     <item>
-      <title>Learning Predictive State Representation for In-Hand Manipulation</title>
-      <link>https://jastork.github.io/publication/stork2015learning-A/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jastork.github.io/publication/stork2015learning-A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Probabilistic consolidation of grasp experience</title>
       <link>https://jastork.github.io/publication/bekiroglu2016probabilistic/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
@@ -43,6 +34,15 @@
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://jastork.github.io/publication/stork2015learning-B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Predictive State Representation for In-Hand Manipulation</title>
+      <link>https://jastork.github.io/publication/stork2015learning-A/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/publication/stork2015learning-A/</guid>
       <description></description>
     </item>
     

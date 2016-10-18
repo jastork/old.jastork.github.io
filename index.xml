@@ -140,15 +140,6 @@ Currently, I am working with the research group headed by &lt;a href=&#34;http:/
     </item>
     
     <item>
-      <title>Learning Predictive State Representation for In-Hand Manipulation</title>
-      <link>https://jastork.github.io/publication/stork2015learning-A/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jastork.github.io/publication/stork2015learning-A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Probabilistic consolidation of grasp experience</title>
       <link>https://jastork.github.io/publication/bekiroglu2016probabilistic/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
@@ -183,6 +174,38 @@ Currently, I am working with the research group headed by &lt;a href=&#34;http:/
       
       <guid>https://jastork.github.io/post/review-humanoids2015/</guid>
       <description>&lt;p&gt;I reviewed for HUMANOIDS 2015.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amazon Picking Challenge 2015</title>
+      <link>https://jastork.github.io/post/amazon-picking-2015/</link>
+      <pubDate>Tue, 30 Jun 2015 12:00:00 +0000</pubDate>
+      
+      <guid>https://jastork.github.io/post/amazon-picking-2015/</guid>
+      <description>
+
+&lt;p&gt;At &lt;a href=&#34;http://www.icra2015.org&#34;&gt;ICRA 2015&lt;/a&gt; the KTH competed as Team CVAP at the &lt;a href=&#34;http://amazonpickingchallenge.org&#34;&gt;Amazon picking challenge&lt;/a&gt;. Our team consisted of
+&lt;a href=&#34;http://robocoffee.org&#34;&gt;A. Pieropan&lt;/a&gt;,
+&lt;a href=&#34;http://www.csc.kth.se/~kaiyuh/&#34;&gt;K. Hang&lt;/a&gt;,
+&lt;a href=&#34;http://michelecolledanchise.com&#34;&gt;M.  Colledanchise&lt;/a&gt;,
+&lt;a href=&#34;http://www.karlpauwels.com&#34;&gt;K. Pauwels&lt;/a&gt;,
+&lt;a href=&#34;http://www.csc.kth.se/~fevb/&#34;&gt;F. Viña&lt;/a&gt;, and me.
+Our approach was based around the &lt;a href=&#34;https://github.com/karlpauwels/simtrack&#34;&gt;Simtrack&lt;/a&gt; object tracking system by &lt;a href=&#34;http://www.karlpauwels.com&#34;&gt;K. Pauwels&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;photographic-impressions:ea4e0d6a0270215c0ad1dd793cfabef8&#34;&gt;Photographic Impressions&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jastork.github.io/img/posts/apc2015-001.jpg&#34; alt=&#34;Setup at APC 2015 with PR2 robot.&#34; /&gt;
+&lt;img src=&#34;https://jastork.github.io/img/posts/apc2015-002.jpg&#34; alt=&#34;APC 2015 scenario with PR2 robot.&#34; /&gt;
+&lt;img src=&#34;https://jastork.github.io/img/posts/apc2015-003.jpg&#34; alt=&#34;Team CVAP robot control center at ACP 2015.&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;video-of-practice-sessions-at-kth:ea4e0d6a0270215c0ad1dd793cfabef8&#34;&gt;Video of Practice Sessions at KTH&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/KZ02c49p43g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
